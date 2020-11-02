@@ -25,7 +25,7 @@
 root=$1
 shift
 network_id=$1
-dir=$root/$network_id
+dir=$/media/storage/$network_id
 mkdir -p $dir/data
 mkdir -p $dir/log
 shift
